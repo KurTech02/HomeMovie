@@ -332,7 +332,7 @@ nav .menu-btn{
         font-size: 200%;
         margin-left: 100px;
         min-width: 100%
-        margin-top: 20px;
+        
 }
     p{
         color: #FF7C00;
@@ -344,14 +344,14 @@ nav .menu-btn{
     a.button {
     width: 200px;
     color: #000;
-    font-size: 20px;
+    font-size: 10px;
     padding: 12px 0;
     background: #FF7C00;
     border: 0x;
-    border-radius: 20px;
+    border-radius: 10px;
     outline: none;
     margin-top: 30px;
-    margin-left: 150px;
+    margin-left: 125px;
     cursor: pointer;
     opacity: 0.6;
     transition: 0.3s;
