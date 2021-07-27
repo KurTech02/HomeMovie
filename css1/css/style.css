@@ -143,8 +143,8 @@ h1 {
 }
 .col img {
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: 50px;
+    top: 50px;
     z-index: -1;
 }
 p{
