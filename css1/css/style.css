@@ -141,6 +141,12 @@ h1 {
     font-size: 400%;
     margin-left: 250px;
 }
+.col img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
 p{
     color: #FF7C00;
     font-size: 15px;
