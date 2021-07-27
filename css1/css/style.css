@@ -327,6 +327,12 @@ nav .menu-btn{
         width:190px;
         margin: 20px 5px;
     }
+    h1 {
+    color: #FF7C00;
+    font-size: 400%;
+    margin-left: 250px;
+    min-width: 100%
+}
     .movies-box{
         flex-direction: row;
         width:90%;
