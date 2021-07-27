@@ -5,13 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE-edge">
 <meta name="viewport" content="width=device-width, intial-scale=1.0">
 <title>Personal Website</title>
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/lightslider.css">
 <link rel="stylesheet" href="css1/css/style.css">
 <link rel="stylesheet" href="css1/css/lightslider.css">
-
-<script src="js/JQuery3.3.1.js"></script>
-<script src="js/lightslider.js"></script>
 <script src="js1/js/JQuery3.3.1.js"></script>
 <script src="js1/js/lightslider.js"></script>
 	<!--style----->
@@ -37,8 +32,14 @@
             transform: translateX(50%);
             -moz-animation: bouncing-text 5s linear infinite alternate;
             -webkit-animation: bouncing-text 5s linear infinite alternate;
-            animation: bouncing-text 10s linear infinite alternate;
+            animation: bouncing-text 10s linear infinite alternate, color-change 1s infinite;
+	    
         }
+			@keyframes color-change {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: red; }
+			}
 
         @-moz-keyframes bouncing-text {
             0% {
