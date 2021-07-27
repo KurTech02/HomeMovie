@@ -331,8 +331,8 @@ nav .menu-btn{
         color: #FF7C00;
         font-size: 200%;
         margin-left: 100px;
-        min-width: 100%
-        
+        min-width: 100%;
+        margin-top: 10px;
 }
     p{
         color: #FF7C00;
@@ -350,8 +350,8 @@ nav .menu-btn{
     border: 0x;
     border-radius: 10px;
     outline: none;
-    margin-top: 30px;
-    margin-left: 125px;
+    margin-top: 50px;
+    margin-left: 150px;
     cursor: pointer;
     opacity: 0.6;
     transition: 0.3s;
