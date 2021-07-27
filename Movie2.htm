@@ -1,0 +1,142 @@
+<!--doctype html-->
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<title>Personal Website</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/lightslider.css">
+
+<script src="js/JQuery3.3.1.js"></script>
+<script src="js/lightslider.js"></script>
+	<!--style----->
+		<style style="text/css">
+        .showcase-heading {
+            height: 50px;
+            overflow: hidden;
+            position: relative;
+            background: #FF8F00;
+            color: #333;
+            border: 1px solid #4a4a4a;
+        }
+
+        .showcase-heading h1 {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            line-height: 50px;
+            text-align: center;
+            -moz-transform: translateX(50%);
+            -webkit-transform: translateX(50%);
+            transform: translateX(50%);
+            -moz-animation: bouncing-text 5s linear infinite alternate;
+            -webkit-animation: bouncing-text 5s linear infinite alternate;
+            animation: bouncing-text 10s linear infinite alternate;
+        }
+
+        @-moz-keyframes bouncing-text {
+            0% {
+                -moz-transform: translateX(50%);
+            }
+            100% {
+                -moz-transform: translateX(-50%);
+            }
+        }
+
+        @-webkit-keyframes bouncing-text {
+            0% {
+                -webkit-transform: translateX(50%);
+            }
+            100% {
+                -webkit-transform: translateX(-50%);
+            }
+        }
+
+        @keyframes bouncing-text {
+            0% {
+                -moz-transform: translateX(50%);
+                -webkit-transform: translateX(50%);
+                transform: translateX(50%);
+            }
+            100% {
+                -moz-transform: translateX(-50%);
+                -webkit-transform: translateX(-50%);
+                transform: translateX(-50%);
+            }
+        }
+    </style>
+
+</head>
+<body>
+<!--navigation-------------->
+    <nav>
+        <!--logo--------------->
+        <a href="#" class="logo">
+            <img src="images/logo.png"/>
+        </a>
+        <!--menu--btn----------------->
+        <input type="checkbox" class="menu-btn" id="menu-btn"/>
+        <label class="menu-icon" for="menu-btn">
+            <span class="nav-icon"></span>
+        </label>
+        <!--menu-------------->
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">TV Shows</a></li>
+            <li><a href="#">Hollywood</a></li>
+            <li><a href="#">Horror</a></li>
+        </ul>
+        <!--search------------->
+        <div class="search">
+            <input type="text" placeholder="Search Your Favourtie Movies"/>
+            <!--search-icon----------->
+            <i class="fas fa-search"></i>
+        </div>
+    </nav>
+</div>
+ <section id="main">
+        <!--showcase----------------------->
+        <!--heading------------->
+        <div class="showcase-heading"><h1>We all need illusion. That's why we loved movies. -master Lasku</h1></div>
+
+        <ul id="autoWidth" class="cs-hidden">
+        </ul>
+    </section>
+<div class="video-emb">
+           <center><iframe src="https://drive.google.com/file/d/12SxiLu6ie6i6hCVDKPgUefNr9EXLcgaQ/preview" preload="auto" class="videot" id="videot" height="100%" preload allow="autoplay" allowfullscreen><center></iframe>
+
+        </div>
+<!--slider-script-------------->
+<script>
+	   $(document).ready(function() {
+    $('#autoWidth').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth').removeClass('cS-hidden');
+        }
+    });
+  });
+  <!--
+	function checkscope( ) {
+	var name = alert("I hope you're fine now. ;)");
+	window.location.href = "https://dream02.netlify.app";
+	}
+	//-->
+</script>
+<!--btns--------------->
+    <div class="btns">
+        <a href="#">Previous</a>
+        <a href="#">Next</a>
+    </div>
+    <!--footer------------------>
+    <footer>
+        <p>Going To Internet, Ltd Consumer Website</p>
+        <p>Copyright 2020 - GoingToInternet</p>
+    </footer>
+
+</body>
+</html>
