@@ -147,24 +147,6 @@ p{
     line-height: 18px;
     margin-left: 250px;
 }
-a.button {
-    width: 200px;
-    color: #000;
-    font-size: 20px;
-    padding: 12px 0;
-    background: #FF7C00;
-    border: 0x;
-    border-radius: 20px;
-    outline: none;
-    margin-top: 30px;
-    margin-left: 250px;
-    cursor: pointer;
-    opacity: 0.6;
-    transition: 0.3s;
-}
-a.button:hover {
-    opacity: 1;
-}
 .card{
     width: 200px;
     height: 230px;
