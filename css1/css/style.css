@@ -140,6 +140,7 @@ h1 {
     color: #FF7C00;
     font-size: 400%;
     margin-left: 250px;
+    min-width: 100%
 }
 .col img {
     position: absolute;
@@ -148,13 +149,14 @@ h1 {
     z-index: -1;
     align-items: center;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 p{
     color: #FF7C00;
     font-size: 15px;
     line-height: 18px;
     margin-left: 250px;
+    min-width: 100%;
 }
 a.button {
     width: 200px;
