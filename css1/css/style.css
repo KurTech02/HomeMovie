@@ -159,6 +159,11 @@ a.button {
     margin-top: 30px;
     margin-left: 250px;
     cursor: pointer;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+a.button:hover {
+    opacity: 1;
 }
 .card{
     width: 200px;
