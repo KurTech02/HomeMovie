@@ -147,7 +147,7 @@ p{
     line-height: 18px;
     margin-left: 250px;
 }
-button {
+a.button {
     width: 180px;
     color: #000;
     font-size: 15px;
