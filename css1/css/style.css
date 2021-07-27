@@ -143,9 +143,10 @@ h1 {
 }
 .col img {
     position: absolute;
-    left: 50px;
-    top: 50px;
+    left: 0px;
+    top: 0px;
     z-index: -1;
+    align-items: center;
 }
 p{
     color: #FF7C00;
